@@ -118,6 +118,6 @@ def procGen(width: int, height: int, desiredMovesToWin: int, allowance: int) -> 
     return sortedByDiffs[0]
 
 
-numMoves, bestGame = procGen(4, 4, 20, 2)
+numMoves, bestGame = procGen(10, 10, 100, 5)
 print(numMoves + 20)
 bestGame.renderBoard()
